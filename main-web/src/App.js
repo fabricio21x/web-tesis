@@ -53,7 +53,7 @@ class App extends Component {
 		}
 		axios
 			.post(
-				`http://ec2-52-15-206-79.us-east-2.compute.amazonaws.com/:4000/predict?evidence=${
+				`http://ec2-52-15-206-79.us-east-2.compute.amazonaws.com:4000/predict?evidence=${
 					this.state.evidence
 				}&question=${this.state.question}`,
 				{
