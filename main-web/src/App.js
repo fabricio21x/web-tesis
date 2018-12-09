@@ -53,7 +53,7 @@ class App extends Component {
 		}
 		axios
 			.post(
-				`http://8a9934e8.ngrok.io/predict?evidence=${
+				`http://42b4042e.ngrok.io/predict?evidence=${
 					this.state.evidence
 				}&question=${this.state.question}`,
 				{
