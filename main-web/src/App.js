@@ -53,9 +53,7 @@ class App extends Component {
 		}
 		axios
 			.post(
-				`http://c45a0951.ngrok.io/predict?evidence=${
-					this.state.evidence
-				}&question=${this.state.question}`,
+				`http://ba480aae.ngrok.io/predict?evidence=${this.state.evidence}&question=${this.state.question}`,
 				{
 					headers: {
 						'Access-Control-Allow-Origin': '*',
